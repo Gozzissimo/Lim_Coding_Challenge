@@ -1,0 +1,90 @@
+body{
+  background-image: url("MaterialeEsercizioLim/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins",Helvetica,sans-serif;
+}
+
+.container{
+  width: 60%;
+  border-radius: 2%;
+  margin: auto;
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.logo{
+  width: 25%;
+  margin: auto;
+}
+
+header{
+  text-align: center;
+  color: #0d0;
+}
+
+.slogan{
+  margin: 0px;
+}
+
+nav{
+  text-align: center;
+  background-color: #0d0;
+  padding: 5px;
+}
+
+nav button{
+  font-size: 12px;
+  height: 18px;
+}
+
+main{
+  color: white;
+}
+
+.status-scooters{
+  margin-top: 2%;
+}
+
+.status-scooters > *{
+  margin: 0;
+}
+
+.checkbox{
+  width: 9px;
+  height: 9px;
+  margin-left: 3px;
+}
+
+section span{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+section p{
+  font-size: 12px;
+}
+
+.battery{
+  border-radius: 5px;
+  height: 22px;
+}
+
+.low{
+  width: 15%;
+  background-color: #cc3300;
+}
+
+.medium{
+  width: 35%;
+  background-color: orange;
+}
+
+.high{
+  width: 60%;
+  background-color: #0d0;
+}
